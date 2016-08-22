@@ -15,6 +15,8 @@ Things you will need 
 
 
 please download the WinEchoSetup.pdf for directions detailed setup
+https://github.com/github-big-cu/WinEcho/blob/master/WinEchoSetup.pdf
+
 
 If you have questions or want to join the program hit us at ​Github@big­cu.com​ or post in the issues  area.       
 Here are some of our To Do’s     
