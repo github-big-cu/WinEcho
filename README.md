@@ -1,5 +1,8 @@
 # WinEcho
 Alexa Voice Service implementation in a c# Windows UWP application
+
+
+
 Win​Echo​ Setup       
 Welcome to the WinEcho project. If you are downloading this you are likely a little bit like us.  
 Developing for the Echo and Alexa but wanting to do this on your Windows PC.     
