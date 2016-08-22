@@ -7,7 +7,7 @@ Win​Echo​ Setup      
 Welcome to the WinEcho project. If you are downloading this you are likely a little bit like us.  
 Developing for the Echo and Alexa but wanting to do this on your Windows PC.     
 This project is a Alexa Application developed for Windows 10.   
-Special thanks to ​https://github.com/whalleyboi​ for his AlexaIoT project from which we drew  inspiration and the audio code.    
+Special thanks to ​@whalleyboi​ for his AlexaIoT project from which we drew  inspiration and the audio code.    
 
 
 Things you will need  
