@@ -11,9 +11,13 @@ Special thanks to ​@whalleyboi​ for his AlexaIoT project from which
 
 
 Things you will need  
+
 1. Speakers and Microphone  
+
 2. A local IIS server or IIS server somewhere for oAuth.   
+
 3. Amazon Developer account   
+
 4. Visual Studio 2015 (any edition will do)  
 
 
