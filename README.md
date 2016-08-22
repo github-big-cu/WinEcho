@@ -25,12 +25,22 @@ please download the WinEchoSetup.pdf for directions detailed setup
 https://github.com/github-big-cu/WinEcho/blob/master/WinEchoSetup.pdf
 
 
-If you have questions or want to join the program hit us at ​Github@big­cu.com​ or post in the issues  area.       
+If you have questions or want to join the program hit us at ​Github@big-cu.com​ 
+or post in the issues  area.       
+
 Here are some of our To Do’s     
+
+
 Add a fast fourier transform to the project so that you can have a view  when alexa responds you see some graphical feedback.     
+
+
 Add lights to the Tap image , as well as the button that you press so it changes color when you  press it. 
+
+
 Also so that the blue lights move at the top similar to a Tap.     
+
+
 Clean up the whole project ­ not really good at graphics , did the best we could.  
 
-Thanks for downloading, particpating
+Thanks for downloading, particpating 
 Best Innovation Group / Innovation team
