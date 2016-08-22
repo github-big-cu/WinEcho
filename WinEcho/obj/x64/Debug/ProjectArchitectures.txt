@@ -1,0 +1,2 @@
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\AVSInterface.csproj;x64
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\WinEcho\WinEcho.csproj;x64

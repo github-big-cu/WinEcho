@@ -1,0 +1,16 @@
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\bin\x64\Debug\AVSInterface.dll
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\bin\x64\Debug\AVSInterface.pdb
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\bin\x64\Debug\AVSInterface.pri
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\AVSInterface.dll
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\AVSInterface.pdb
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\priconfig.xml
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\layout.resfiles
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\layout.resfiles.intermediate
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\resources.resfiles
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\pri.resfiles
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\qualifiers.txt
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\John Best\Documents\FIBOTICS\InfoGateway\FIBotics\WinEcho\AVSInterface\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt

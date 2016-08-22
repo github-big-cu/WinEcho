@@ -1,0 +1,9 @@
+﻿Notes on how to a better UI
+https://channel9.msdn.com/events/Build/2015/2-679
+To do: Have Jackie fix the graphic - Crop, need lights. 
+To do: Downchannel - process directives.
+To do: in Amazinlogin.Xaml.cs Check to see if they are logged in aleady and remove it from the navmenuitems[]
+To do: Create Press and Release button for the Tap graphic --> JB
+To do: Come up withe first page information 
+
+

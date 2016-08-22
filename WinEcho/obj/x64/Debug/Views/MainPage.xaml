@@ -1,0 +1,93 @@
+﻿<Page
+    x:Class="WinEcho.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WinEcho"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+    <RelativePanel x:ConnectionId='1' x:Name="LayoutRoot"
+        Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+        EntranceNavigationTransitionInfo.IsTargetElement="True"
+        Padding="24,0">
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="787,420,-768,34" Visibility="Collapsed">
+            <StackPanel Orientation="Horizontal">
+                <Button x:ConnectionId='12' x:Name="RecordButton"                            Content="Record" Visibility="Collapsed"/>
+                <Button x:ConnectionId='13' x:Name="StopButton"                          Content="Stop" Visibility="Collapsed"/>
+                <Button x:ConnectionId='14' x:Name="SaveButton"                          Content="Save" Visibility="Collapsed"/>
+                <Button x:ConnectionId='15' x:Name="LoadButton"                          Content="Load" Visibility="Collapsed"/>
+                <Button x:ConnectionId='16' x:Name="button" Content="EchoTest" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ClickMode="Press"                      Visibility="Collapsed"/>
+            </StackPanel>
+            <StackPanel x:ConnectionId='10' x:Name="results" Visibility="Collapsed">
+                <TextBlock />
+            </StackPanel>
+            <StackPanel  Orientation="Horizontal" Margin="0,10,0,0" Visibility="Collapsed">
+                <TextBlock>
+                    <Run Text="Duration"/>
+                </TextBlock>
+                <TextBlock x:ConnectionId='11' x:Name="Duration" Text="{Binding}" Margin="10,0,0,0"/>
+            </StackPanel>
+        </StackPanel>
+        <TextBlock x:ConnectionId='2' x:Name="wintext" RelativePanel.AlignLeftWithPanel="True" FontFamily="Microsoft YaHei UI" Text="Win" FontSize="90"/>
+        <TextBlock x:ConnectionId='3' x:Name="echotext" RelativePanel.RightOf="wintext" FontFamily="Microsoft YaHei UI" FontSize="90" Text="Echo" Foreground="#FF17F51D" FontWeight="Bold" />
+
+        <WebView x:ConnectionId='4' x:Name="wvAuth"                                                  Visibility="Collapsed"/>
+
+        <TextBox x:ConnectionId='5' x:Name="textBox" HorizontalAlignment="Left" Margin="34,513,-24,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="588" Height="117"                                   Visibility="Collapsed"/>
+        <MediaElement x:ConnectionId='6' x:Name="player" HorizontalAlignment="Right" Height="140" Margin="0,136,-1479,0" VerticalAlignment="Top" Width="349" RequestedTheme="Light" AudioCategory="Speech" Volume="10" Visibility="Collapsed" />
+
+
+        <Button x:ConnectionId='7' x:Name="amazonLogin" Content="Echo Page" Margin="63,162,-24,0" VerticalAlignment="Top"                    Width="101" Visibility="Collapsed"/>
+        <Button x:ConnectionId='8' x:Name="amazonLogin_Copy" Content="Login Page" Margin="63,219,-24,0" VerticalAlignment="Top"                     Width="101" Visibility="Collapsed"/>
+        
+        <TextBlock x:ConnectionId='9' x:Name="WinEchoInfo" TextWrapping="Wrap" FontFamily="Microsoft YaHei UI" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True" >
+        <Run FontSize="24" Text="Welcome to the WinEcho project. If you are downloading this you are likely a little bit like us. Developing for the Echo and Alexa but wanting to do this on your Windows PC. "/>
+        <LineBreak/>
+        <LineBreak/>
+        <Run FontSize="24" Text="This project is a Alexa Application developed for Windows 10. "/>
+        <LineBreak/>
+        <Run FontSize="24" Text="Special thanks to https://github.com/whalleyboi for his AlexaIoT project from which we drew inspiration and the audio code. "/>
+        <LineBreak/>
+        <LineBreak/>
+        <Run FontSize="24" Text="Things you will need"/>
+        <LineBreak/>
+        <Run FontSize="24" Text="Speakers and Microphone"/>
+        <LineBreak/>
+        <Run FontSize="24" Text="A local IIS server or IIS server somewhere for oAuth. "/>
+        <LineBreak/>
+        <Run FontSize="24" Text="Amazon Developer account "/>
+        <LineBreak/>
+        <Run FontSize="24" Text="Visual Studio 2015 (any edition will do) "/>
+        <LineBreak/>
+        <Run FontSize="24"/>
+        <LineBreak/>
+        <Run FontSize="24"/>
+        <LineBreak/>
+        <Run FontSize="24" Text="Please read the WinEchoSetup.PDF for details on getting started. "/>
+        <LineBreak/>
+        <Run FontSize="24" Text="For questions please email github@big-cu.com"/>
+        <LineBreak/>
+        <Run FontSize="24"/>
+        <LineBreak/>
+        <Run FontSize="24"/>
+        <LineBreak/>
+        <Run FontSize="24"/>
+        <LineBreak/>
+        <Run FontSize="24"/>
+        <LineBreak/>
+        <Run/>
+        <LineBreak/>
+        <Run/>
+        <LineBreak/>
+        <Run/>
+        <LineBreak/>
+        <Run/>
+        </TextBlock>
+    
+
+    </RelativePanel>
+</Page>
+

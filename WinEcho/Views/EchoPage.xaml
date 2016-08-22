@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="WinEcho.Views.EchoPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WinEcho"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <RelativePanel x:Name="LayoutRoot"
+        Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+        EntranceNavigationTransitionInfo.IsTargetElement="True"
+        Padding="24,0">
+        <Image x:Name="Echo_Tap_image" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True" Stretch="Uniform" HorizontalAlignment="Center" VerticalAlignment="Bottom" Source="/Assets/amazon-tap-crop.png"/>
+        <Button x:Name="listenButton" Content="Listen" RelativePanel.RightOf = "Echo_Tap_image" RelativePanel.AlignVerticalCenterWith="Echo_Tap_image" Click="RecordButton_Click"/>
+        <Button x:Name="StopButton"  Content="Stop" Click="StopButton_Click" RelativePanel.RightOf = "Echo_Tap_image" RelativePanel.Below="listenButton" />
+        <StackPanel RelativePanel.RightOf="Echo_Tap_image" RelativePanel.AlignBottomWithPanel="True">
+            <TextBlock x:Name="results" />
+        </StackPanel>
+       
+            <TextBlock x:Name="Duration" Text="{Binding}" RelativePanel.Above="Echo_Tap_image" RelativePanel.AlignHorizontalCenterWithPanel="True"/>
+        <Image x:Name="image" Source="ms-appx:///Assets/tap.png" RelativePanel.AlignTopWith="Echo_Tap_image" RelativePanel.AlignHorizontalCenterWith="Echo_Tap_image" Height="500" Width="200" Opacity="0"/>
+        <!--<Button x:Name="Tap_button" Content="Button" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="859,216,-1019,-365" RenderTransformOrigin="1.15,2.134" PointerMoved="Tap_button_PointerMoved" PointerPressed="Tap_button_PointerPressed" PointerReleased="Tap_button_PointerReleased" KeyDown="Tap_button_KeyDown" KeyUp="Tap_button_KeyUp" />-->
+
+
+    </RelativePanel>
+</Page>

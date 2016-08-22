@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="WinEcho.Views.AmazonLogin"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WinEcho"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <RelativePanel x:Name="LayoutRoot"
+        Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+        EntranceNavigationTransitionInfo.IsTargetElement="True"
+        Padding="24,0">
+
+
+        <WebView x:Name="wvAuth" RelativePanel.AlignHorizontalCenterWithPanel="True" RelativePanel.AlignVerticalCenterWithPanel="True" NavigationCompleted="wvAuth_NavigationCompleted" UseLayoutRounding="False" ScrollViewer.VerticalScrollBarVisibility="Disabled" Margin="-503.81,-456.917,-513.403,-99"/>
+
+
+        <TextBlock x:Name="resultsbox"  TextWrapping="Wrap" FontFamily="Microsoft YaHei UI" FontSize="21.333" RelativePanel.Below="wvAuth" RelativePanel.AlignHorizontalCenterWith="wvAuth" Margin="5,117,-5,-117"/>
+
+    </RelativePanel>
+</Page>

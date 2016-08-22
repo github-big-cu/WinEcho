@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="WinEcho.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WinEcho"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+    <RelativePanel x:Name="LayoutRoot"
+        Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+        EntranceNavigationTransitionInfo.IsTargetElement="True"
+        Padding="24,0">
+
+
+        <TextBox x:Name="txtClientId" Height="32" TextWrapping="Wrap" Text="" RelativePanel.AlignHorizontalCenterWithPanel="True" Width="800" Foreground="Black"/>
+        <TextBlock x:Name="textBlock" Height="32" TextWrapping="Wrap" Text="Client Id" Width="93" Foreground="Black" RelativePanel.LeftOf="txtClientId" />
+        <TextBox x:Name="txtClientSecret" Height="32" TextWrapping="Wrap" Text="" RelativePanel.Below="txtClientId" RelativePanel.AlignHorizontalCenterWith="txtClientId" Width="800" Foreground="Black"/>
+        <TextBlock x:Name="textBlock2" Height="32" TextWrapping="Wrap" Text="Client Secret" RelativePanel.Below="textBlock" RelativePanel.LeftOf="txtClientId" Width="93" Foreground="Black"/>
+        <TextBox x:Name="txtProductId" Height="32" TextWrapping="Wrap" RelativePanel.Below="txtClientSecret" RelativePanel.AlignHorizontalCenterWith="txtClientSecret" Width="800" Foreground="Black"/>
+        <TextBlock x:Name="textBlock3" Height="32" TextWrapping="Wrap" RelativePanel.Below="textBlock2" RelativePanel.LeftOf="txtProductId" Text="Product Id" Width="93" Foreground="Black"/>
+        <TextBox x:Name="txtDeviceSerial" Height="32" TextWrapping="Wrap" Text="" RelativePanel.Below="txtProductId" RelativePanel.AlignHorizontalCenterWith="txtProductId" Width="800" Foreground="Black"/>
+        <TextBlock x:Name="textBlock4" Height="32" TextWrapping="Wrap" RelativePanel.Below="textBlock3" RelativePanel.LeftOf="txtDeviceSerial" Text="Device Serial" Width="93" Foreground="Black"/>
+        <TextBox x:Name="txtoAuthURL" Height="32" TextWrapping="Wrap" Text="" RelativePanel.Below="txtDeviceSerial" RelativePanel.AlignHorizontalCenterWith="txtDeviceSerial" Width="800" Foreground="Black"/>
+        <TextBlock x:Name="textBlock5" Height="32" TextWrapping="Wrap" Text="Auth URL" RelativePanel.Below ="textBlock4" RelativePanel.LeftOf="txtoAuthURL" Width="93" Foreground="Black"/>
+        <Button x:Name="btnClearAccessToken" Content="Clear Access Token"  RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignHorizontalCenterWithPanel="True" Click="btnClearAccessToken_Click" Height="34" Width="173" />
+        <Button x:Name="btnClearOAuth" Content="Clear oAuth" Click="btnClearOAuth_Click" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignLeftWithPanel="True" Height="34" Width="173" />
+        <Button x:Name="btnSave" Content="Save Settings" Click="btnSave_Click"  RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" Height="32" Width="173" />
+    </RelativePanel>
+</Page>
